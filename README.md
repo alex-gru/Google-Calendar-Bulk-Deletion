@@ -23,3 +23,24 @@ As soon as you verified that only those events are displayed, which you want to 
 ## Demo
 
 ![](https://github.com/alex-gru/Google-Calendar-Bulk-Deletion/blob/master/demo.gif)
+
+
+## The Snippet
+Paste this snippet into your browser's console and hit `ENTER`.
+
+```
+bulkDelete();
+
+function bulkDelete() {
+	const list = Array.from(document.querySelectorAll('[role="main"] [role="rowgroup"] [role="presentation"]'));
+	if (list.length === 0) return;
+	list[0].click();
+	setTimeout(() => {
+		document.querySelector('[aria-label="Delete event"]').click();
+		setTimeout(() => bulkDelete(), 500);
+	}, 500);
+}
+
+```
+
+
