@@ -1,4 +1,4 @@
-# Google-Calendar-Bulk-Deletion
+# Google Calendar Bulk Deletion
 Code snippet for in-browser bulk deletion of Google Calendar events
 
 ## Why you might need this script
