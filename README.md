@@ -15,9 +15,11 @@ The script does not handle additional confirm dialogs (e.g. for recurring events
 ## What you have to do
 Open Google Calendar, now `Search` for your target events you want to delete. Use the rich mask that Google Calendar offers here.
 
+![](https://github.com/alex-gru/Google-Calendar-Bulk-Deletion/blob/master/search.jpg)
 
 As soon as you verified that only those events are displayed, which you want to delete, open the developer tools via `F12` and paste the snippet into the console. Hit `ENTER` and watch the show 🍿.
 
 
 ## Demo
 
+![](https://github.com/alex-gru/Google-Calendar-Bulk-Deletion/blob/master/demo.gif)
